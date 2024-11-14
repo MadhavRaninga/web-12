@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+.raybon{
+    width: 100%;
+    height: 60px;
+    background-color: #F2F2F2;
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.raybon svg{
+    font-size: 27px;
+    text-align: center;
+    color: RGB(31, 31, 36);
+
+}
+.raybon h2{
+     text-align: center;
+     font-size: 17px;
+     color: RGB(31, 31, 36);
+     font-weight: 800;
+     margin-left: 10px;
+}
+.raybon span{
+    text-decoration: underline;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    border: 1px solid rgb(219, 219, 219);
+    z-index: 1;
+    border-top: none;
+    padding-inline: 4%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.nav-left{
+    width: 13%;
+    height: 100%;
+}
+.nav-left img{
+    width: 93%;
+    height: 95%;
+}
+.nav-center{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    align-items: center;
+}
+.nav-center a{
+    text-transform: uppercase;
+    color: RGB(31, 31, 36);
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Rb-major-b1 (woff);
+    font-weight: 700;
+}
+.nav-right{
+    width: 13%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-right i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.nav-right i:hover{
+    border-bottom: 3px solid black;
+}
+.round{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 62px;
+    top: 18px;
+}
+.hero{
+    width: 100%;
+    height: 105vh;
+    background-image: url(https://india.ray-ban.com/media/wysiwyg/image_-_2024-09-19T130239.716.png);
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.slide{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+}
+.slide h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: RGB(51, 51, 51);
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: 800;
+}
+html,
+body {
+  position: relative;
+  height: 50%;
+}
+
+body {
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 70%;
+  margin-top: 30px;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(242,242,242);
+  padding-inline: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  margin-top: 30px;
+}
+.swiper-slide h2{
+   font-size: 16px;
+   margin-top: 50px;
+   font-family: Rb-major-b1 (woff), helvetica;
+   cursor: pointer;
+}
+.swiper-slide:hover h2{
+  border-bottom: 1px solid black;
+  transition: 0.3s;
+}
+.swiper-slide p{
+  font-size: 14px;
+  margin-top: 20px;
+  color: rgb(96,96,100);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.main-top{
+  width: 100%;
+  height: 26%;
+  background-color: rgb(0,0,0);
+
+}
+.main-top h2{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: Rb-major-b1 (woff) , helvetica;
+  padding-top: 60px;
+}
+.main-top p{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-top: 13px;
+  letter-spacing: 0.5px;
+}
+.main-bottom{
+  width: 100%;
+  height: 74%;
+  display: flex;
+  justify-content: space-between;
+}
+.shop1{
+   width: 33.33%;
+   height: 100%;
+   overflow: hidden;
+}
+.shop1 img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.other{
+  width: 100%;
+  height: 60vh;
+}
+.other h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: RGB(51, 51, 51);
+  font-size: 22px;
+  margin-top: 30px;
+  font-weight: 800;
+}
+html,
+body {
+  position: relative;
+  height: 70%;
+}
+
+body {
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 80%;
+ 
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(242,242,242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  
+}
